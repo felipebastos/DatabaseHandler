@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "databasehandler"
+version = "0.1.0"
+description = "A database handler for Python's Logging module."
+authors = ["Felipe Bastos Nunes <felipebastos@ifce.edu.br>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4.29"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
